@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="temp.css">
+    <title>Temperature Calculator</title>
+</head>
+
+<body>
+    <h1>Temperature Converter:</h1>
+    <p>Type a value in the field to convert the value:</p>
+
+
+    <div class="container">
+        <div class="row"></div>
+        <p>
+            <label>Fahrenheit</label>
+            <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+        </p>
+        <p>Celcius: <span id="outputCelcius"></span></p>
+
+        <div class="row1">
+            <p>
+                <label>Celcius</label>
+                <input id="inputCelcius" type="number" placeholder="Celcius" oninput="temperatureConverter1(this.value)" onchange="temperatureConverter1(this.value)">
+            </p>
+            <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+        </div>
+    </div>
+
+    <script src="temp.js" charset="utf-8"></script>
+</body>
+
+</html>

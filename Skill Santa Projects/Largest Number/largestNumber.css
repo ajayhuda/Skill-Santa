@@ -1,0 +1,13 @@
+h1 {
+    font-size: 2rem;
+}
+
+body {
+    font-style: Sans-serif, serif;
+    text-align: center;
+    margin: 15%;
+}
+
+#demo {
+    font-size: 2rem;
+}
